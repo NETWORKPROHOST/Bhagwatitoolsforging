@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>E-mail Form</title>
+<style type="text/css">
+body {  font-family: Verdana;
+	background-color: rgb(240,220,0);
+	}
+
+input.feedback {
+font: bold italic;
+}
+#heading {
+width: 100%;
+background-color: blue;
+color: white;
+text-align: center;
+}
+
+</style>
+</head>
+<body>
+<header>
+<div id="heading">
+<h1 style="font-family: Verdana;">BHAGWATI TOOLS & FORGINGS</h1>
+</div>
+<hr> </hr>
+</header>
+<form action="mailto:gagangambhir@live.com" method="POST">
+
+<p><label for="formtype"><strong> Form type:</strong></label>
+	<input type="text" class="feedback" value="Feedback Form" readonly>
+</p>
+<p><strong>Firm Name:</strong><br />
+<input type="text" size="25" name="name" /></p>
+<p><strong>E-Mail Address:</strong><br />
+<input type="text" size="25" name="email" /></p>
+<p><strong>Message:</strong><br />
+<textarea name="message" cols="30" rows="5"></textarea></p>
+<p><input type="submit" value="send" /></p>
+</form>
+</body>
+</html>
