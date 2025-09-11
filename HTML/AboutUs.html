@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
 <title>About Us</title>
 <style type="text/css">
 body {  font-family: Verdana;
@@ -17,10 +16,54 @@ text-align: center;
 img.logo { 	background-color: blue;
 		padding: 5px;
 		float: left; }
+#pictures { 
+		position: relative;
+		top: 180px;
+		left: 300px;
+	 	z-index: 1;}
 
-#main { padding: 0 12em 10em 2em; }
+#Pictures.Product1 {
+		left: 1px;
+		}
+
+#Pictures.Product11 {
+		left: 51px;
+		}
+#Pictures.Product2 {
+		left: 101px;
+		}
+
+#Pictures.Product3 {
+		left: 151px;
+		}
+
+#Pictures.Product33 {
+		left: 251px;
+		
+		}
+
+#Pictures.Product34 {
+		left: 301px;
+		
+		}
+
+#Pictures.Product4 {
+		left: 351px;
+		 }
+
+#Pictures.Product6 {
+		left: 401px;
+		}
+
+#Pictures.BrickHammer  {
+		left: 451px;
+		}
+#main { padding: 0 20em 20em 1em; }
 #content { float: left;
-		padding: 1em 5em; }
+		top: 7em;
+		padding: 1em 15em;
+		z-index: 2;
+		position: absolute; }
 
 p:first-letter {
  	font-Size: 300%;
@@ -38,7 +81,8 @@ p:first-letter {
 #sidebar ul { margin: 0 0 1em 0; 
 		background-color: white;
 		border: 2px solid bloack; }
-footer { background-color: white; }
+footer { 	top: 10em;
+		background-color: white; }
 </style>	
 </head>
 <body>
@@ -49,7 +93,10 @@ footer { background-color: white; }
 <hr> </hr>
 </header>
 <div id="main">
-<article="content">
+<div id="pictures">
+<img src="..\images\product1.jpg" alt="Product1" class="Product1" style="height: 75px; width: 75px;"><img src="..\images\Product11.png" alt="Product1-1" class="Product11" style="height: 75px; width: 75px;"><img src="..\images\product2.jpg" alt="Product2" class="Product2" style="height: 75px; width: 75px;"><img src="..\images\product3.jpg" alt="Product3" class="Product3" style="height: 75px; width: 75px;"><img src="..\images\product33.png" alt="Product3-1" class="Product33" style="height: 75px; width: 75px;"><img src="..\images\product34.png" alt="Product3-2" class="Product34" style="height: 75px; width: 75px;"><img src="..\images\product4.jpg" alt="Product4" class="Product4" style="height: 75px; width: 75px;"><img src="..\images\product6.jpg" alt="Product6" class="Product6" style="height: 75px; width: 75px;"><img src="..\images\Brick Hammer.jpg" alt="Brick Hammer" class="BrickHammer" style="height: 75px; width: 75px;">
+</div>
+<article id="content">
 <h2 style="color: white;">About Us</h2>
 <p>Bhagwati Tools and Forgings has been a leading manufacturer
 since 1990, with a focus on producing superior Tools. Our thirty-year 
@@ -60,7 +107,7 @@ construction industry, guranteeing dependability and effectiveness.
 Bhagawati Tools & Forgings is well-known for their exceptional craftsmanship and for providing sturdy,superior tools that adhere to strict industry standards. Their unwavering commitment to innovation and customer satisfaction at site drives them to continuously improve product designs and manufacturing processes in response to changing market demands. Durable, accurate, and performance-driven solutions have defined the company's legacy and made Bhagwati Tools & Forgings a reputable name in the Sledge Hammer Industry. 
 </p>
 </article>
-
+ 
 <aside id="sidebar">
 <h3>Bhagwati Tools</h3>
 <ul>
